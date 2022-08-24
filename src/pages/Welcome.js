@@ -4,7 +4,7 @@ const Welcome = () => {
   return (
     <>
       <h1>The Welcome page</h1>
-      <Route path="/welcome/new-user">
+      <Route path="react-router-basics/welcome/new-user">
         <p>Welcome new user!</p>
       </Route>
     </>
