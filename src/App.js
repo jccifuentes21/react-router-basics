@@ -11,16 +11,16 @@ function App() {
       <MainHeader />
       <main>
         <Switch>
-          <Route path="/" exact>
-            <Redirect to="/welcome"/>
+          <Route path="react-router-basics/" exact>
+            <Redirect to="react-router-basics/welcome"/>
           </Route>
-          <Route path="/welcome">
+          <Route path="react-router-basics/welcome">
             <Welcome />
           </Route>
-          <Route path="/products" exact>
+          <Route path="react-router-basics/products" exact>
             <Products />
           </Route>
-          <Route path="/products/:productId">
+          <Route path="react-router-basics/products/:productId">
             <ProductDetail />
           </Route>
         </Switch>
